@@ -570,7 +570,7 @@ struct ImFontConfig
     bool MergeMode;
     unsigned int RasterizerFlags;
     float RasterizerMultiply;
-    char Name[32];
+    char Name[40];
     struct ImFont *DstFont;
 };
 
